@@ -1,13 +1,29 @@
 {
   "files": {
-    "main.css": "/nft-template/static/css/main.1ef3a49a.css",
-    "main.js": "/nft-template/static/js/main.e4fa0f9e.js",
+    "main.css": "/nft-template/static/css/main.fc5f7ef2.css",
+    "main.js": "/nft-template/static/js/main.d8ec047d.js",
+    "static/media/home-image.svg": "/nft-template/static/media/home-image.c28d81568a57cd59ee4f926b156e1352.svg",
+    "static/media/image-01.svg": "/nft-template/static/media/image-01.9381357ee57696623726d1fd5ba17a7b.svg",
+    "static/media/fa-solid-900.ttf": "/nft-template/static/media/fa-solid-900.79da213423ac0def2058.ttf",
+    "static/media/fa-brands-400.ttf": "/nft-template/static/media/fa-brands-400.0a1b701f5563c2288281.ttf",
+    "static/media/common-bg.jpg": "/nft-template/static/media/common-bg.df9c966a903bfd3412b7.jpg",
+    "static/media/fa-solid-900.woff2": "/nft-template/static/media/fa-solid-900.4896d4b04430cc3dfb06.woff2",
+    "static/media/fa-brands-400.woff2": "/nft-template/static/media/fa-brands-400.f77bcc98bb7468c8b15a.woff2",
+    "static/media/fa-regular-400.ttf": "/nft-template/static/media/fa-regular-400.15d98c18221c8bcb2334.ttf",
+    "static/media/fa-regular-400.woff2": "/nft-template/static/media/fa-regular-400.d79c2ec96ab9ff1161a2.woff2",
+    "static/media/fa-v4compatibility.ttf": "/nft-template/static/media/fa-v4compatibility.52eba2c567c521b8d58a.ttf",
+    "static/media/fa-v4compatibility.woff2": "/nft-template/static/media/fa-v4compatibility.3d503f89ccaf1b224aa5.woff2",
+    "static/media/slick.svg": "/nft-template/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/nft-template/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/nft-template/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/nft-template/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/logo.svg": "/nft-template/static/media/logo.cf3b6b5b9a14b9720cc18b32a870c49c.svg",
     "index.html": "/nft-template/index.html",
-    "main.1ef3a49a.css.map": "/nft-template/static/css/main.1ef3a49a.css.map",
-    "main.e4fa0f9e.js.map": "/nft-template/static/js/main.e4fa0f9e.js.map"
+    "main.fc5f7ef2.css.map": "/nft-template/static/css/main.fc5f7ef2.css.map",
+    "main.d8ec047d.js.map": "/nft-template/static/js/main.d8ec047d.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ef3a49a.css",
-    "static/js/main.e4fa0f9e.js"
+    "static/css/main.fc5f7ef2.css",
+    "static/js/main.d8ec047d.js"
   ]
 }
