@@ -1,0 +1,11 @@
+#footer {
+     width: var(--main-width);
+     display: grid;
+     grid-template-columns: 2fr 1fr 1fr 1fr;
+     padding: 1rem 0 3rem;
+     gap: 3rem;
+}
+
+#footer .footer__info img {
+     width: 100px;
+}

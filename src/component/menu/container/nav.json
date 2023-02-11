@@ -1,0 +1,51 @@
+[
+     {
+          "id": 1,
+          "title": "Home",
+          "to": "home",
+          "other-nav": []
+     },
+     {
+          "id": 2,
+          "title": "Explore",
+          "to": "explore",
+          "other-nav": []
+     },
+     {
+          "id": 3,
+          "title": "Community",
+          "to": "community",
+          "other-nav": []
+     },
+     {
+          "id": 4,
+          "title": "Pages",
+          "to": "",
+          "other-nav": [
+               {
+                    "id": 41,
+                    "title": "Explore Items",
+                    "to": "/pages/explore-items",
+                    "other-nav": []
+               },
+               {
+                    "id": 42,
+                    "title": "Item Details",
+                    "to": "/pages/item-details",
+                    "other-nav": []
+               },
+               {
+                    "id": 43,
+                    "title": "Create Item",
+                    "to": "/pages/create-item",
+                    "other-nav": []
+               }
+          ]
+     },
+     {
+          "id": 5,
+          "title": "Support",
+          "to": "support",
+          "other-nav": []
+     }
+]
