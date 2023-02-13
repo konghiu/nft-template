@@ -1,0 +1,94 @@
+#popularCollection .popularCollection__content {
+     display: grid;
+     gap: 2rem;
+     grid-template-columns: 1fr 1fr;
+}
+#popularCollection .popularCollection__content > div {
+     border-radius: 20px;
+     padding: 20px;
+     background-color: var(--main-gray);
+}
+#popularCollection .popularCollection__content > div > div:nth-child(1) {
+     display: flex;
+}
+
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-left
+     > div:nth-child(1),
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-right
+     > div:nth-child(1) {
+     display: flex;
+     justify-content: space-between;
+}
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-left
+     .images
+     div:nth-child(1) {
+     width: calc(70% - 1.5rem);
+}
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-left
+     .images
+     div:nth-child(2) {
+     width: 30%;
+}
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-left
+     .images
+     div:nth-child(2)
+     img:nth-child(1) {
+     margin-bottom: 1rem;
+}
+
+/* right */
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-right
+     .images
+     > div:nth-child(1) {
+     width: 40%;
+}
+
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-right
+     .images
+     > div:nth-child(2)
+     img:nth-child(1),
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-right
+     .images
+     > div:nth-child(2)
+     img:nth-child(2) {
+     width: calc(50% - 1.5rem);
+     margin-left: 1.5rem;
+}
+
+#popularCollection
+     .popularCollection__content
+     .popularCollection__content-right
+     .images
+     > div:nth-child(2)
+     img:nth-child(3) {
+     width: calc(100% - 1.5rem);
+     margin-top: 1rem;
+     float: right;
+}
+
+#popularCollection .info__title {
+     margin: 1rem 0;
+}
+#popularCollection .info_ {
+     display: flex;
+}
+#popularCollection .info_ .info__image {
+     width: 50px;
+     margin-right: 10px;
+}

@@ -2,6 +2,7 @@ import React from "react";
 import home_image from "../../assets/profile/home-image.svg";
 import CoreFeatures from "./container/core-feature/CoreFeatures";
 import LiveAuction from "./container/live-auction/LiveAuction";
+import PopularCollection from "./container/popular-collection/PopularCollection";
 import TodayPicks from "./container/today-pick/TodayPicks";
 import TopArtists from "./container/top-artist/TopArtists";
 import "./home.css";
@@ -40,6 +41,7 @@ const Home = () => {
                     <LiveAuction />
                     <TodayPicks />
                     <CoreFeatures />
+                    <PopularCollection />
                </div>
           </section>
      );

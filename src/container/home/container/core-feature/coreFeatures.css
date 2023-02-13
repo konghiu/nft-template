@@ -67,5 +67,5 @@
 }
 
 #coreFeatures .coreFeatures__content .core .core__content {
-     color: #a0a0a0;
+     color: var(--sub-color-text);
 }

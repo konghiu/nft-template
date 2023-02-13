@@ -1,6 +1,5 @@
 import Routers from "./Routers";
 import Menu from "./component/menu/Menu";
-import Footer from "./component/footer/Footer";
 
 function App() {
      return (
@@ -13,7 +12,6 @@ function App() {
           >
                <Menu />
                <Routers />
-               <Footer />
           </div>
      );
 }

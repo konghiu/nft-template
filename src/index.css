@@ -7,7 +7,33 @@ body {
      font-family: Arial, Helvetica, sans-serif;
      background-color: var(--main-black);
      color: white;
+     overflow-x: hidden;
 }
+
+::-webkit-scrollbar {
+     width: 5px;
+}
+
+::-webkit-scrollbar-track {
+     background: var(--main-gray);
+}
+
+::-webkit-scrollbar-thumb {
+     background: var(--main-black);
+}
+
+::-webkit-scrollbar-thumb:hover {
+     background: var(--sub-color-text);
+}
+
+a {
+     text-decoration: none;
+     color: white;
+     display: block;
+}
+
+ul,
+a,
 p,
 h1,
 h2,
@@ -16,11 +42,13 @@ h4,
 h5,
 h6 {
      margin: 0;
+     padding: 0;
 }
 li {
      list-style: none;
 }
 
+input,
 button {
      outline: none;
      border: none;
@@ -37,6 +65,11 @@ img {
      --main-black: #141420;
      --main-gray: #2c2c39;
      --main-size-title: 30px;
+     --sub-color-text: #a1a0ae;
+}
+
+.text__gray {
+     color: var(--sub-color-text);
 }
 
 #router {

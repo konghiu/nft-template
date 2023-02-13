@@ -1,0 +1,64 @@
+{
+     "icons": [
+          {
+               "id": 1,
+               "icon": "fa-brands fa-facebook"
+          },
+          {
+               "id": 2,
+               "icon": "fa-brands fa-twitter"
+          },
+          {
+               "id": 3,
+               "icon": "fa-brands fa-instagram"
+          },
+          {
+               "id": 4,
+               "icon": "fa-brands fa-youtube"
+          }
+     ],
+     "company": [
+          {
+               "id": 1,
+               "title": "About company",
+               "url": "/about-company"
+          },
+          {
+               "id": 2,
+               "title": "Company services",
+               "url": "/company-services"
+          },
+          {
+               "id": 3,
+               "title": "Job opportunities",
+               "url": "/job-opportunities"
+          },
+          {
+               "id": 4,
+               "title": "Contact us",
+               "url": "/contact-us"
+          }
+     ],
+     "customer": [
+          {
+               "id": 1,
+               "title": "Client support",
+               "url": "/client-support"
+          },
+          {
+               "id": 2,
+               "title": "Latest news",
+               "url": "/latest-news"
+          },
+          {
+               "id": 3,
+               "title": "Company Details",
+               "url": "/company-details"
+          },
+          {
+               "id": 4,
+               "title": "Who we are",
+               "url": "/who-we-are"
+          }
+     ]
+}
