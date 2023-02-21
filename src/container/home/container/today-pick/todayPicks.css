@@ -3,3 +3,16 @@
      grid-template-columns: repeat(4, 1fr);
      gap: 2rem;
 }
+
+@media only screen and (max-width: 1324px) {
+     #todayPicks .todayPicks__content {
+          grid-template-columns: repeat(3, 1fr);
+          gap: 1.5rem;
+     }
+}
+
+@media only screen and (max-width: 1024px) {
+     #todayPicks .todayPicks__content {
+          grid-template-columns: repeat(2, 1fr);
+     }
+}

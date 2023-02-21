@@ -9,8 +9,9 @@ import "./home.css";
 
 const Home = () => {
      return (
-          <section id="home">
+          <section id="home" className="component__flex">
                <div className="home__container">
+                    <span className="home__container-banner"></span>
                     <div>
                          <h1 className="home__title">
                               This is Template for NFT Marketplace and Web3

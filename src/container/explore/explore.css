@@ -1,0 +1,44 @@
+#explore {
+     width: var(--main-width);
+}
+
+#explore .explore__options {
+     width: 100%;
+     box-sizing: border-box;
+     padding: 1.25rem 1.5rem;
+     border: 2px solid rgb(92, 92, 92);
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     border-radius: 0.5rem;
+}
+#explore .explore__options .explore__options-left span {
+     background-color: var(--main-gray);
+     padding: 10px 20px;
+     border-radius: 0.25rem;
+     font-weight: bold;
+     transition: all 0.25s 0s ease;
+     cursor: pointer;
+}
+#explore .explore__options .explore__options-right select:nth-child(2),
+#explore .explore__options .explore__options-left span:not(:nth-child(1)) {
+     margin-left: 1rem;
+}
+#explore .explore__options .explore__options-left span:hover {
+     background-color: var(--main-blue);
+}
+
+#explore .explore__options .explore__options-right select {
+     background-color: var(--main-gray);
+     color: white;
+     padding: 10px 20px;
+     border-radius: 0.25rem;
+     font-size: 16px;
+}
+
+#explore .explore__items {
+     margin: 50px 0;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 2rem;
+}

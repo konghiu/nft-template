@@ -10,6 +10,13 @@ body {
      overflow-x: hidden;
 }
 
+.component__flex,
+#root {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+
 ::-webkit-scrollbar {
      width: 5px;
 }
@@ -49,6 +56,13 @@ li {
 }
 
 input,
+label {
+     display: block;
+}
+
+textarea,
+select,
+input,
 button {
      outline: none;
      border: none;
@@ -63,7 +77,9 @@ img {
      --main-width: 1300px;
      --main-blue: #5142fc;
      --main-black: #141420;
+     --main-black-sub: #353444;
      --main-gray: #2c2c39;
+     --main-white: #4d4c5a;
      --main-size-title: 30px;
      --sub-color-text: #a1a0ae;
 }
@@ -72,9 +88,36 @@ img {
      color: var(--sub-color-text);
 }
 
-#router {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     align-items: center;
+/* 
+576px for portrait phones
+768px for tablets
+992px for laptops
+1200px for large devices
+*/
+
+@media only screen and (max-width: 1324px) {
+     :root {
+          --main-width: 1020px;
+     }
+}
+@media only screen and (max-width: 1024px) {
+     :root {
+          --main-width: 900px;
+     }
+}
+@media only screen and (max-width: 992px) {
+     :root {
+          --main-width: 700px;
+     }
+}
+@media only screen and (max-width: 768px) {
+     :root {
+          --main-width: 500px;
+     }
+}
+@media only screen and (max-width: 576px) {
+     :root {
+          --main-width: 100%;
+          padding: 0 2rem;
+     }
 }

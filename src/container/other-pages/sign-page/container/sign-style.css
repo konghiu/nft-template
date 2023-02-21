@@ -1,0 +1,88 @@
+#signin .signin__checkinfo {
+     display: block;
+     position: relative;
+     padding-left: 2rem;
+     cursor: pointer;
+     font-size: 16px;
+     -webkit-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+}
+
+#signin .signin__checkinfo input {
+     position: absolute;
+     opacity: 0;
+     cursor: pointer;
+     /* height: 0; */
+     /* width: 0; */
+}
+
+#signin .signin__checkinfo-checkmark {
+     position: absolute;
+     top: 0;
+     left: 0;
+     height: 1rem;
+     width: 1rem;
+     border: 1px solid var(--main-white);
+     background-color: var(--main-black-sub);
+     border-radius: 0.15rem;
+     font-family: "Font Awesome 6 Free";
+     font-weight: 900;
+     font-size: 12px;
+}
+
+#signin .signin__checkinfo:hover input ~ .signin__checkinfo-checkmark {
+     background-color: var(--main-black-sub);
+}
+
+#signin .signin__checkinfo input:checked ~ .signin__checkinfo-checkmark {
+     background-color: var(--main-black-sub);
+}
+
+.signin__checkinfo-checkmark::after {
+     content: "\f00c";
+     position: absolute;
+     display: none;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+}
+
+#signin .signin__checkinfo input:checked ~ .signin__checkinfo-checkmark::after {
+     display: block;
+}
+
+#signin .signin__checkinfo {
+     display: inline-block;
+}
+/* forgot password */
+#signin .signin__forgotpass {
+     float: right;
+     color: #a0a1ae;
+     cursor: pointer;
+}
+#signin .signin__forgotpass:hover {
+     color: white;
+}
+/* button sign in and sign up*/
+#signup .signup__button-signup,
+#signin .signin__button-signin {
+     margin-top: 2rem;
+     width: 100%;
+     padding: 0.75rem 0;
+     font-size: 16px;
+     border-radius: 0.25rem;
+     background-color: var(--main-blue);
+     color: white;
+}
+
+#signup .signup__button-signup {
+     margin-top: 0rem !important;
+     margin-bottom: 1rem;
+}
+
+#signup .signup__button-signup:hover,
+#signin .signin__button-signin:hover {
+     opacity: 0.9;
+}

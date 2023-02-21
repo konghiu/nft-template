@@ -1,28 +1,31 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
+import Heart from "../heart/Heart";
+import FootInfoAuth from "./component/FootInfoAuth";
 import "./item.css";
 
 const Item = (props) => {
+     const navigate = useNavigate();
+
      return (
           <div id="item">
                <div className="item__image">
+                    <span className="item__image-heart">
+                         <Heart />
+                    </span>
                     <img src={props.item.image} alt="" />
                </div>
-               <p className="item__title">
+               <p
+                    className="item__title"
+                    onClick={() => navigate("/nft-template/item-details")}
+               >
                     {props.item.name} #{props.item.id}
                </p>
-               <div className="item__auth">
-                    <div className="item__auth-image">
-                         <img src={props.item.auth.image} alt="" />
-                    </div>
-                    <div className="item__auth-name">
-                         <p>{props.item.auth.name}</p>
-                         <p>creator</p>
-                    </div>
-                    <div className="item__auth-eth">
-                         <p>{props.item.auth.ETH} ETH</p>
-                         <p>Current Bit</p>
-                    </div>
-               </div>
+               <FootInfoAuth
+                    item={props.item}
+                    position="creater"
+                    status="Cuurent Bit"
+               />
                <div className="item__buttons">
                     <button className="item__buttons-placebid">
                          Place Bid

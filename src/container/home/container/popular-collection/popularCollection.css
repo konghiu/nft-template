@@ -7,6 +7,7 @@
      border-radius: 20px;
      padding: 20px;
      background-color: var(--main-gray);
+     border: 1px solid #4c4c4c;
 }
 #popularCollection .popularCollection__content > div > div:nth-child(1) {
      display: flex;
@@ -87,8 +88,15 @@
 }
 #popularCollection .info_ {
      display: flex;
+     float: left;
 }
 #popularCollection .info_ .info__image {
      width: 50px;
      margin-right: 10px;
+}
+
+@media only screen and (max-width: 1024px) {
+     #popularCollection .popularCollection__content {
+          grid-template-columns: 1fr;
+     }
 }

@@ -7,6 +7,7 @@ import image_05 from "../../../../assets/profile/image-05.svg";
 import image_06 from "../../../../assets/profile/image-06.svg";
 import image_07 from "../../../../assets/profile/image-07.svg";
 import image_08 from "../../../../assets/profile/image-08.svg";
+import Heart from "../../../../component/heart/Heart";
 import "./popularCollection.css";
 
 const PopularCollection = () => {
@@ -39,6 +40,7 @@ const PopularCollection = () => {
                                         <p className="text__gray">creator</p>
                                    </div>
                               </div>
+                              <Heart />
                          </div>
                     </div>
                     <div className="popularCollection__content-right">
@@ -65,6 +67,7 @@ const PopularCollection = () => {
                                         <p className="text__gray">creator</p>
                                    </div>
                               </div>
+                              <Heart />
                          </div>
                     </div>
                </div>

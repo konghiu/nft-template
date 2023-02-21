@@ -1,0 +1,57 @@
+#connectWallet {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     width: var(--main-width);
+}
+
+#connectWallet .connectWallet__title {
+     font-size: 2.75rem;
+}
+#connectWallet .connectWallet__description {
+     color: #a0a1ae;
+     font-size: 19px;
+     width: 50%;
+     text-align: center;
+     margin: 1rem 0 4rem;
+}
+#connectWallet .connectWallet__wallets {
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     gap: 1.75rem;
+}
+#connectWallet .connectWallet__wallet {
+     box-sizing: border-box;
+     padding: 2rem 1.5rem;
+     border: 1px solid var(--main-white);
+     border-radius: 1rem;
+     background-color: var(--main-gray);
+     transition: all 0.25s ease;
+}
+#connectWallet .connectWallet__wallet:hover {
+     background-color: white;
+}
+#connectWallet .connectWallet__wallet:hover .connectWallet__wallet-image {
+     background-color: #e1e1e1;
+}
+#connectWallet .connectWallet__wallet img {
+     width: 30px;
+}
+#connectWallet .connectWallet__wallet .connectWallet__wallet-image {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     width: 32px;
+     height: 32px;
+     padding: 1rem;
+     background-color: white;
+     border-radius: 50%;
+}
+
+#connectWallet .connectWallet__wallet h3 {
+     margin: 1.25rem 0 1rem;
+}
+#connectWallet .connectWallet__wallet p {
+     color: #a0a1ae;
+     line-height: 1.5rem;
+}

@@ -1,0 +1,125 @@
+#sign {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     padding: 10rem 0 3rem;
+     width: 100%;
+     background-image: url("../../../assets/profile/common-bg.jpg");
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+}
+#sign::before {
+     content: "";
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+}
+#sign::before {
+     background: linear-gradient(
+          180deg,
+          rgba(20, 20, 32, 0.65) 0%,
+          #141420 100%
+     );
+}
+
+#sign > div {
+     z-index: 5;
+}
+
+#sign .signpage {
+     z-index: 5;
+     width: calc(100% / 3);
+     background-color: var(--main-gray);
+     border: var(--main-white) 1px solid;
+     box-sizing: border-box;
+     padding: 4rem 3.5rem 1.75rem;
+     border-radius: 0.5rem;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     overflow: hidden;
+}
+#sign .signpage > p {
+     color: #a0a1ae;
+     margin: 0.5rem 0 1rem;
+}
+#sign .signpage .signpage__signin_up-faster {
+     margin-top: 1rem;
+}
+#sign .signpage .signpage__signin_up-faster > svg {
+     border: 1px solid var(--main-white);
+     border-radius: 0.5rem;
+     width: 42px;
+     padding: 0.65rem 0;
+     background-color: var(--main-black-sub);
+     margin: 0 0.5rem;
+     cursor: pointer;
+}
+#sign .signpage .signpage__signin_up-faster > svg:hover {
+     background-color: white;
+}
+
+#sign .signpage #signin,
+#sign .signpage #signup {
+     width: 100%;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     overflow-x: hidden;
+}
+/* css form for sign in and sign up */
+#sign .signpage #signin form,
+#sign .signpage #signup form {
+     width: 100%;
+}
+#sign .signpage .signin__title,
+#sign .signpage .signup__title {
+     position: relative;
+     color: #a0a1ae;
+     width: fit-content;
+     padding: 0 1rem;
+     margin: 2rem 0;
+     font-size: 17px;
+}
+
+#sign .signpage .signup__title::after,
+#sign .signpage .signup__title::before,
+#sign .signpage .signin__title::after,
+#sign .signpage .signin__title::before {
+     content: "";
+     position: absolute;
+     width: 100%;
+     height: auto;
+     top: 50%;
+     transform: translateY(-50%);
+     border-top: 1px solid #5a5a5c;
+}
+
+#sign .signpage .signup__title::after,
+#sign .signpage .signin__title::after {
+     left: 100%;
+}
+#sign .signpage .signup__title::before,
+#sign .signpage .signin__title::before {
+     right: 100%;
+}
+
+/* sign in change feature sign */
+#sign .signpage .signpage__change-sign {
+     margin: 3rem 0 0 !important;
+     padding-top: 1.75rem;
+     width: 200%;
+     text-align: center;
+     border-top: 1px solid var(--main-white);
+     font-weight: bold;
+}
+#sign .signpage .signpage__change-sign > span {
+     color: white;
+     cursor: pointer;
+}
+#sign .signpage .signpage__change-sign > span:hover {
+     color: var(--main-blue);
+}

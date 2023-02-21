@@ -12,6 +12,15 @@ const settings = {
      slidesToScroll: 1,
      autoplay: true,
      autoplaySpeed: 3000,
+     responsive: [
+          {
+               breakpoint: 1323,
+               settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 2,
+               },
+          },
+     ],
 };
 
 const TopArtists = () => {

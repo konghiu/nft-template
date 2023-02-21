@@ -1,0 +1,91 @@
+#createItem {
+     width: var(--main-width);
+     display: flex;
+     box-sizing: border-box;
+     background-color: var(--main-gray);
+     border-radius: 0.5rem;
+     padding: 2.5rem;
+     box-sizing: border-box;
+}
+
+/* create item drop images / files */
+
+#createItem .createItem__file {
+     flex: 1;
+}
+#createItem .createItem__file input[type="file"] {
+     position: absolute;
+     width: 1px;
+     height: 1px;
+     padding: 0;
+     margin: -1px;
+     overflow: hidden;
+     clip: rect(0, 0, 0, 0);
+     white-space: nowrap;
+     border-width: 0;
+}
+#createItem .createItem__file-choose {
+     border: 1px dashed white;
+     margin-right: 3.5rem;
+     border-radius: 0.5rem;
+     display: flex;
+     flex-direction: column;
+     padding: 7rem 0;
+     justify-content: center;
+     align-items: center;
+     background-color: var(--main-black-sub);
+}
+
+#createItem .createItem__file-choose i {
+     font-size: 3.5rem;
+     color: var(--main-white);
+}
+
+#createItem .createItem__file-choose h3,
+#createItem .createItem__file-choose p {
+     margin: 0.5rem 0;
+}
+#createItem .createItem__file-choose .createItem__file-choose-text-2 {
+     color: #a0a1ae;
+}
+#createItem .createItem__file-choose .createItem__file-choose-button {
+     padding: 0.5rem 1.5rem;
+     margin-top: 0.5rem;
+     color: black;
+     font-weight: 600;
+     background-color: white;
+     border-radius: 0.25rem;
+     cursor: pointer;
+}
+
+/* create item valid info */
+#createItem .createItem__info {
+     width: 58%;
+}
+
+#createItem .createItem__info button {
+     width: 100%;
+     background-color: var(--main-blue);
+     padding: 1rem 0;
+     font-size: 16px;
+     color: white;
+     border-radius: 0.5rem;
+}
+
+/* among */
+#createItem .createItem__info-basic > div:nth-child(4),
+#createItem .createItem__info-basic > div:nth-child(5),
+#createItem .createItem__info-timeAuctions > div {
+     display: inline-block;
+     width: calc(50% - 0.75rem);
+}
+#createItem .createItem__info-basic > div:nth-child(4),
+#createItem .createItem__info-timeAuctions > div:nth-child(2) {
+     padding-right: 1.5rem;
+}
+/* create item time auctions */
+
+#createItem .createItem__info-timeAuctions h3 {
+     margin: 1rem 0 1.5rem;
+     font-size: 20px;
+}

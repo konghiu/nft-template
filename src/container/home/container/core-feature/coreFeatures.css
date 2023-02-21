@@ -69,3 +69,16 @@
 #coreFeatures .coreFeatures__content .core .core__content {
      color: var(--sub-color-text);
 }
+
+@media only screen and (max-width: 1324px) {
+     #coreFeatures .coreFeatures__content {
+          grid-template-columns: repeat(3, 1fr);
+          gap: 1.5rem;
+     }
+}
+
+@media only screen and (max-width: 1024px) {
+     #coreFeatures .coreFeatures__content {
+          grid-template-columns: repeat(2, 1fr);
+     }
+}

@@ -1,0 +1,19 @@
+.textarea__component textarea,
+.input__component input {
+     margin: 0.5rem 0 1.5rem;
+     width: 100%;
+     border-radius: 0.5rem;
+     background-color: var(--main-black-sub);
+     border: 1px solid var(--main-white);
+     padding: 1rem 1.5rem;
+     color: #a0a1ae;
+     font-size: 16px;
+     box-sizing: border-box;
+}
+
+.textarea__component textarea:focus,
+.input__component input:focus {
+     background-color: var(--main-white);
+     box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 25px -5px,
+          rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}

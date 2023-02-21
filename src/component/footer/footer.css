@@ -90,3 +90,9 @@
      letter-spacing: 1px;
      background-color: transparent;
 }
+
+@media only screen and (max-width: 1024px) {
+     #footer > #footer__element {
+          grid-template-columns: 1fr 1fr;
+     }
+}

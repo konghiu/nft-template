@@ -1,19 +1,13 @@
+import React from "react";
 import Routers from "./Routers";
-import Menu from "./component/menu/Menu";
+import { BrowserRouter as Router } from "react-router-dom";
 
-function App() {
+const App = () => {
      return (
-          <div
-               style={{
-                    display: "flex",
-                    flexDirection: "column",
-                    alignItems: "center",
-               }}
-          >
-               <Menu />
+          <Router>
                <Routers />
-          </div>
+          </Router>
      );
-}
+};
 
 export default App;

@@ -1,0 +1,186 @@
+#itemDetails {
+     width: var(--main-width);
+     display: flex;
+     align-items: flex-start;
+}
+
+/* container image */
+#itemDetails .itemDetails__image img {
+     width: 50%;
+}
+#itemDetails .itemDetails__image {
+     position: relative;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 500px;
+     flex: 1;
+     box-sizing: border-box;
+     margin-right: 2rem;
+     background-color: var(--main-gray);
+     border-radius: 1.5rem;
+     border: 1px solid var(--main-white);
+}
+
+/* container content */
+#itemDetails .itemDetails__content {
+     flex: 1;
+     box-sizing: border-box;
+     margin-left: 2rem;
+}
+
+#itemDetails .itemDetails__content .itemDetails__content-title {
+     font-size: 24px;
+     display: flex;
+     justify-content: space-between;
+}
+
+#itemDetails .itemDetails__content .itemDetails__content-auth {
+     margin: 2rem 0;
+     display: flex;
+}
+#itemDetails .itemDetails__content .itemDetails__content-auth > div {
+     display: flex;
+     align-items: center;
+}
+
+#itemDetails .itemDetails__content .itemDetails__content-auth img {
+     width: 50px;
+     margin-right: 0.5rem;
+}
+#itemDetails
+     .itemDetails__content
+     .itemDetails__content-auth
+     > div
+     .itemDetails__content-auth-info
+     p:nth-child(2) {
+     color: #a0a0a3;
+     font-size: 14px;
+     margin-top: 5px;
+}
+#itemDetails
+     .itemDetails__content
+     .itemDetails__content-auth
+     > div
+     .itemDetails__content-auth-info
+     p:nth-child(1) {
+     font-size: 18px;
+}
+#itemDetails
+     .itemDetails__content
+     .itemDetails__content-auth
+     > div:nth-child(1) {
+     padding-right: 1.75rem;
+     border-right: 2px solid #a0a0ae;
+}
+#itemDetails
+     .itemDetails__content
+     .itemDetails__content-auth
+     > div:nth-child(2) {
+     padding-left: 1.75rem;
+}
+
+/* container text describe */
+#itemDetails .itemDetails__content-text {
+     color: #a1a0a3;
+     line-height: 1.5rem;
+     font-size: 17px;
+}
+
+#itemDetails .itemDetails__content-describe {
+     border-radius: 10px;
+     border: 1px solid #4d4c5a;
+     background-color: var(--main-gray);
+     display: flex;
+     margin: 2rem 0 1.5rem;
+}
+
+#itemDetails .itemDetails__content-describe > div {
+     width: 50%;
+}
+#itemDetails .itemDetails__content-describe > div:nth-child(1) {
+     padding: 1rem 1.25rem;
+     border-right: 1px solid #4d4c5a;
+}
+
+#itemDetails .itemDetails__content-describe p {
+     color: #a1a0ae;
+     font-size: 17px;
+}
+#itemDetails .itemDetails__content-describe span {
+     color: white;
+}
+
+#itemDetails .itemDetails__content-describe > div:nth-child(1) p {
+     padding: 0.25rem 0;
+}
+
+#itemDetails .itemDetails__content-describe > div:nth-child(2) {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+#itemDetails
+     .itemDetails__content-describe
+     .itemDetails__content-describe-timer {
+     background-color: #4d4c5a;
+     padding: 0.75rem 1rem;
+     border-radius: 0.5rem;
+     margin-top: 0.5rem;
+     font-size: 17px;
+     font-weight: bold;
+}
+
+#itemDetails .itemDetails__content-info {
+     background-color: var(--main-gray);
+     border: 1px solid #4d4c5a;
+     border-radius: 0.5rem;
+}
+
+#itemDetails .itemDetails__content-info .itemDetails__content-info-title {
+     padding: 1.5rem 0.5rem;
+     border-bottom: 1px solid #4d4c5a;
+}
+
+#itemDetails .itemDetails__content-info .itemDetails__content-info-title span {
+     padding: 0.65rem 1.75rem;
+     border: 1px solid #4d4c5a;
+     border-radius: 0.35rem;
+     margin-right: 1rem;
+     cursor: pointer;
+}
+
+#itemDetails
+     .itemDetails__content-info
+     .itemDetails__content-info-title
+     span:hover {
+     background-color: var(--main-blue);
+}
+
+#itemDetails .itemDetails__content-info-cast {
+     padding: 0.5rem 0;
+}
+#itemDetails .itemDetails__content-info-cast > div {
+     font-size: 14px !important;
+     padding: 0.5rem 1rem;
+}
+#itemDetails .itemDetails__content-info-cast > div:hover {
+     background-color: var(--main-white);
+}
+
+#itemDetails .itemDetails__content-info-cast .infoAuth-image {
+     width: 2.75rem;
+}
+
+#itemDetails .itemDetails__content-info-placebid {
+     margin-top: 2rem;
+     width: 100%;
+     background-color: var(--main-blue);
+     padding: 1rem 0;
+     color: white;
+     font-size: 16px;
+     border-radius: 0.5rem;
+     font-weight: bold;
+}

@@ -8,7 +8,7 @@
      {
           "id": 2,
           "title": "Explore",
-          "to": "explore",
+          "to": "explore-items",
           "other-nav": []
      },
      {
@@ -25,19 +25,37 @@
                {
                     "id": 41,
                     "title": "Explore Items",
-                    "to": "/pages/explore-items",
+                    "to": "explore-items",
                     "other-nav": []
                },
                {
                     "id": 42,
-                    "title": "Item Details",
-                    "to": "/pages/item-details",
+                    "title": "Connect Wallet",
+                    "to": "connect-wallet",
                     "other-nav": []
                },
                {
                     "id": 43,
                     "title": "Create Item",
-                    "to": "/pages/create-item",
+                    "to": "create-item",
+                    "other-nav": []
+               },
+               {
+                    "id": 44,
+                    "title": "Support",
+                    "to": "support",
+                    "other-nav": []
+               },
+               {
+                    "id": 45,
+                    "title": "Sign in",
+                    "to": "sign/sign-in",
+                    "other-nav": []
+               },
+               {
+                    "id": 46,
+                    "title": "Sign up",
+                    "to": "sign/sign-up",
                     "other-nav": []
                }
           ]
