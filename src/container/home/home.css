@@ -109,3 +109,16 @@
           width: 50%;
      }
 }
+
+@media only screen and (max-width: 768px) {
+     #home .home__container {
+          padding-top: 11rem;
+     }
+     #home .home__container .home__title {
+          font-size: 2rem;
+     }
+     #home .home__container .home__title,
+     #home .home__container .home__content {
+          width: 100%;
+     }
+}

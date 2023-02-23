@@ -96,7 +96,7 @@
           grid-template-columns: 1fr 1fr;
      }
 }
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 768px) {
      #footer > #footer__element {
           grid-template-columns: 1fr;
           padding: 0 2rem;

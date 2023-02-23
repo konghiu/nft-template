@@ -10,10 +10,6 @@ body {
      overflow-x: hidden;
 }
 
-html {
-     padding: 0 !important;
-}
-
 .component__flex,
 #root {
      display: flex;
@@ -121,7 +117,6 @@ img {
 }
 @media only screen and (max-width: 576px) {
      :root {
-          --main-width: 100%;
-          padding: 0 2rem;
+          --main-width: calc(100% - 4rem);
      }
 }
