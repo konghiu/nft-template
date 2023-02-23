@@ -20,6 +20,19 @@ const settings = {
                     slidesToScroll: 2,
                },
           },
+          {
+               breakpoint: 767,
+               settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+               },
+          },
+          {
+               breakpoint: 575,
+               settings: {
+                    slidesToShow: 2,
+               },
+          },
      ],
 };
 

@@ -38,7 +38,7 @@ const Home = () => {
                     </div>
                </div>
                <div className="home__body">
-                    <TopArtists />
+                    {/* <TopArtists /> */}
                     <LiveAuction />
                     <TodayPicks />
                     <CoreFeatures />

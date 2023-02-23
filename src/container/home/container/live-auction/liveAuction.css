@@ -16,3 +16,15 @@
           grid-template-columns: repeat(2, 1fr);
      }
 }
+
+@media only screen and (max-width: 768px) {
+     #liveAuction .liveAuction__content {
+          grid-template-columns: repeat(2, 1fr);
+     }
+}
+
+@media only screen and (max-width: 576px) {
+     #liveAuction .liveAuction__content {
+          grid-template-columns: 1fr;
+     }
+}

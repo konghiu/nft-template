@@ -44,6 +44,7 @@
 #createItem .createItem__file-choose h3,
 #createItem .createItem__file-choose p {
      margin: 0.5rem 0;
+     text-align: center;
 }
 #createItem .createItem__file-choose .createItem__file-choose-text-2 {
      color: #a0a1ae;
@@ -88,4 +89,32 @@
 #createItem .createItem__info-timeAuctions h3 {
      margin: 1rem 0 1.5rem;
      font-size: 20px;
+}
+
+@media only screen and (max-width: 1024px) {
+     #createItem .createItem__file-choose {
+          margin-right: 2rem;
+     }
+}
+@media only screen and (max-width: 992px) {
+     #createItem {
+          flex-direction: column;
+     }
+     #createItem .createItem__file-choose {
+          margin-right: 0;
+     }
+     #createItem .createItem__file-choose p {
+          padding: 0 1rem;
+     }
+     #createItem .createItem__info {
+          width: 100%;
+          margin-top: 2rem;
+     }
+}
+@media only screen and (max-width: 576px) {
+     #createItem .createItem__info-basic > div:nth-child(4),
+     #createItem .createItem__info-basic > div:nth-child(5),
+     #createItem .createItem__info-timeAuctions > div {
+          width: 100%;
+     }
 }

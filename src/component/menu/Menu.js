@@ -30,12 +30,24 @@ const Menu = () => {
           relativePath[location.pathname.replace("/nft-template/", "")]
      );
 
+     const handleOpenNav = () => {
+          const nav = document.querySelector(".menu__nav");
+          nav.classList.toggle("menu__nav-open");
+     };
+
      useEffect(() => {
           setPathFrame((prev) => {
                let pathname = location.pathname.replace("/nft-template/", "");
                if (pathname === "") return prev;
                return relativePath[pathname];
           });
+          console.log(window.outerWidth);
+          if (window.innerWidth <= 1024) {
+               document
+                    .querySelector(".menu__nav")
+                    .classList.toggle("menu__nav-open");
+          }
+
           const positionY = window.pageYOffset;
           document.documentElement.scrollTop -= positionY;
      }, [location.pathname]);
@@ -97,7 +109,7 @@ const Menu = () => {
                                    </li>
                               ))}
                          </ul>
-                         <div>
+                         <div className="menu__container-tail">
                               <span className="menu__container-search">
                                    <i className="fa-solid fa-magnifying-glass"></i>
                                    <span className="menu__container-search-input">
@@ -108,6 +120,12 @@ const Menu = () => {
                               <span className="menu__container-connectwallet">
                                    <i className="fa-solid fa-wallet"></i>
                                    Wallet Connect
+                              </span>
+                              <span
+                                   className="menu__container-bar"
+                                   onClick={() => handleOpenNav()}
+                              >
+                                   <i className="fa-solid fa-bars"></i>
                               </span>
                          </div>
                     </div>

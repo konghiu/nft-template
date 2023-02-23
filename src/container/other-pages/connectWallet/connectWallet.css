@@ -55,3 +55,25 @@
      color: #a0a1ae;
      line-height: 1.5rem;
 }
+
+@media only screen and (max-width: 1024px) {
+     #connectWallet .connectWallet__wallets {
+          grid-template-columns: repeat(3, 1fr);
+     }
+     #connectWallet .connectWallet__description {
+          width: 75%;
+     }
+}
+@media only screen and (max-width: 992px) {
+     #connectWallet .connectWallet__wallets {
+          grid-template-columns: 1fr 1fr;
+     }
+     #connectWallet .connectWallet__description {
+          width: 90%;
+     }
+}
+@media only screen and (max-width: 576px) {
+     #connectWallet .connectWallet__wallets {
+          grid-template-columns: 1fr;
+     }
+}

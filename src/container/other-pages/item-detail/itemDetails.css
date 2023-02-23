@@ -184,3 +184,33 @@
      border-radius: 0.5rem;
      font-weight: bold;
 }
+
+@media only screen and (max-width: 1024px) {
+     #itemDetails .itemDetails__content {
+          margin-left: 0rem;
+     }
+     #itemDetails .itemDetails__image {
+          height: 430px;
+     }
+}
+
+@media only screen and (max-width: 992px) {
+     #itemDetails {
+          flex-direction: column;
+     }
+     #itemDetails .itemDetails__image {
+          flex: none;
+          height: 200px;
+          width: 200px;
+          margin-bottom: 1.5rem;
+     }
+     #itemDetails .itemDetails__image img {
+          width: 150px;
+     }
+}
+
+@media only screen and (max-width: 576px) {
+     #itemDetails .itemDetails__content-title {
+          flex-direction: column;
+     }
+}

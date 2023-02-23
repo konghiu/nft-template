@@ -8,10 +8,10 @@ const Explore = () => {
           <section id="explore">
                <div className="explore__options">
                     <div className="explore__options-left">
-                         <span>All</span>
-                         <span>Digital Art</span>
-                         <span>Music</span>
-                         <span>3D Illustraction</span>
+                         <button>All</button>
+                         <button>Digital Art</button>
+                         <button>Music</button>
+                         <button>3D Illustraction</button>
                     </div>
                     <div className="explore__options-right">
                          <select className="form-control">
