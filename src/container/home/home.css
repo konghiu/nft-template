@@ -121,4 +121,7 @@
      #home .home__container .home__content {
           width: 100%;
      }
+     #home .home__buttons button {
+          margin-top: 1rem;
+     }
 }

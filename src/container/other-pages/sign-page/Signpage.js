@@ -1,11 +1,14 @@
 import React from "react";
-import { Outlet } from "react-router-dom";
+import { Outlet, useLocation, useNavigate } from "react-router-dom";
 import Facebook from "../../../assets/icons/custom-icons/Facebook";
 import Google from "../../../assets/icons/custom-icons/Google";
 import Twitter from "../../../assets/icons/custom-icons/Twitter";
 import "./signpage.css";
 
 const Signpage = () => {
+     const location = useLocation();
+     const navigate = useNavigate();
+
      return (
           <div id="sign">
                <div className="signpage">
@@ -18,7 +21,21 @@ const Signpage = () => {
                     </div>
                     <Outlet />
                     <p className="signpage__change-sign">
-                         Don't you have an account? <span>Sign up</span>
+                         Don't you have an account?{" "}
+                         <span
+                              onClick={(e) => {
+                                   if (e.target.innerHTML.includes("in")) {
+                                        navigate("/nft-template/sign/sign-in");
+                                   } else {
+                                        navigate("/nft-template/sign/sign-up");
+                                   }
+                              }}
+                         >
+                              Sign
+                              {location.pathname.includes("sign-up")
+                                   ? " in"
+                                   : " up"}
+                         </span>
                     </p>
                </div>
           </div>

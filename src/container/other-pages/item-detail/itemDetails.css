@@ -213,4 +213,7 @@
      #itemDetails .itemDetails__content-title {
           flex-direction: column;
      }
+     #itemDetails .itemDetails__content .itemDetails__content-title {
+          font-size: 20px;
+     }
 }

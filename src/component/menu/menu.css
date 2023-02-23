@@ -101,7 +101,7 @@
      position: absolute;
      width: fit-content;
      height: 0;
-     overflow-y: hidden;
+     overflow: hidden;
      top: 100%;
      right: -1.75rem;
      background-color: #1d2144;
@@ -164,7 +164,7 @@
           height: 0;
           padding: 0;
           position: absolute;
-          right: 3.75rem;
+          right: 2rem;
           top: 100%;
           overflow-y: hidden;
           display: flex;
@@ -194,11 +194,9 @@
      }
      #menu .menu__container li:hover .menu__container-nav-nest-lv1 {
           z-index: 10;
-          position: absolute;
-          width: 100%;
+          width: 200px;
           height: auto;
           top: 100%;
-          right: 0;
      }
 }
 
@@ -209,8 +207,18 @@
 }
 
 @media only screen and (max-width: 576px) {
+     #menu .menu__container-nav-nest-lv1 {
+          left: 0px !important;
+     }
      #menu .menu__container-search-input {
-          width: 300px;
+          width: 250px;
           right: -4rem;
+     }
+
+     #menu .menu__container-search-input input {
+          padding: 0 1rem 0;
+     }
+     #menu .menu__container-search-input i {
+          margin: 0 !important;
      }
 }

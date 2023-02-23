@@ -73,6 +73,9 @@
      }
 }
 @media only screen and (max-width: 576px) {
+     #connectWallet .connectWallet__title {
+          font-size: 1.5rem;
+     }
      #connectWallet .connectWallet__wallets {
           grid-template-columns: 1fr;
      }

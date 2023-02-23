@@ -45,6 +45,7 @@
 #sign .signpage > p {
      color: #a0a1ae;
      margin: 0.5rem 0 1rem;
+     text-align: center;
 }
 #sign .signpage .signpage__signin_up-faster {
      margin-top: 1rem;
@@ -83,6 +84,7 @@
      padding: 0 1rem;
      margin: 2rem 0;
      font-size: 17px;
+     text-align: center;
 }
 
 #sign .signpage .signup__title::after,
@@ -129,5 +131,12 @@
           width: 100%;
           margin: 0 1rem;
           padding: 2rem 1rem;
+     }
+     #sign .signpage h1 {
+          font-size: 1.5rem;
+     }
+     #sign .signpage .signin__forgotpass {
+          margin-top: 1rem;
+          float: left;
      }
 }

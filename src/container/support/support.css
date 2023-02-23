@@ -159,4 +159,7 @@
      #support .support__getInTouch .support__getInTouch-content {
           width: 100%;
      }
+     #support h2 {
+          font-size: 1.5rem;
+     }
 }

@@ -45,7 +45,7 @@ const Menu = () => {
           if (window.innerWidth <= 1024) {
                document
                     .querySelector(".menu__nav")
-                    .classList.toggle("menu__nav-open");
+                    .classList.remove("menu__nav-open");
           }
 
           const positionY = window.pageYOffset;
